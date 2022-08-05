@@ -57,6 +57,10 @@ public final class ImmutableEncodedRepository {
     return repository.getName();
   }
 
+  public String getNamespace() {
+    return repository.getNamespace();
+  }
+
   public String getType() {
     return repository.getType();
   }
