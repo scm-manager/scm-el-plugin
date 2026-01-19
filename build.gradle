@@ -15,7 +15,7 @@
  */
 
 plugins {
-  id 'org.scm-manager.smp' version '0.17.0'
+  id 'org.scm-manager.smp' version '0.20.0-alpha8'
 }
 
 dependencies {
@@ -24,9 +24,9 @@ dependencies {
 
 scmPlugin {
   scmVersion = "3.0.0"
+  isScm4Compatible = true
   displayName = "Expression Language"
   description = "Expression language support for SCM-Manager plugins"
   author = "Cloudogu GmbH"
   category = "Library"
-
 }
